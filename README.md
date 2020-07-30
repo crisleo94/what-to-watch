@@ -1,26 +1,31 @@
-# react-parcel
-My personal React + Parcel set up
+## Inicio Rápido
+Este proyecto usa Parcel como su bundler principal, dentro del mismo existen los siguiente comandos:
 
-## Quick Overview
-Inside the newly created project, you can run some built-in commands:
+### `yarn install`
+Una vez se tenga una copia local del proyecto se deberá ejecutar este comando para instalar los módulos necesarios para empezar a trabajar
 
-### `npm start` or `yarn start`
+### `npm start` o `yarn start`
 
-Runs the app in development mode.<br>
-Open [http://localhost:1234](http://localhost:1234) to view it in the browser.
+Lanza la aplicación en modo desarrollo<br>
+Abre el navegador en la siguiente dirección [http://localhost:1234](http://localhost:1234).
 
-The page will automatically reload if you make changes to the code.<br>
-You will see the build errors and lint warnings in the console.
+Parcel cuenta con hot-reload lo que permite ver los cambios en la página inmediatamente se guardan.<br>
 
-### `npm test` or `yarn test`
+### `npm run build` o `yarn build`
 
-This will run tests using Jest and React Testing Library.
+Crea un build list para producción dentro de la carpeta `dist`.<br>
+Cambia la aplicación de React automáticamente a producción.
 
-### `npm run build` or `yarn build`
+Una vez se ejecuta este comando la aplicación queda lista para ser desplegada.
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Trabajando con ramas
+Dentro del proyecto existen dos ramas que son consideradas como las ramas principales, una es `master` y la otra es `develop`. Para añadir cualquier nueva funcionalidad al proyecto se deberá crear una rama nueva a partir de `develop`, en el cual se indicará el nombre del desarrollador, para la creación de la rama se siguen los siguientes pasos:
 
-The build is minified and the filenames include the hashes.<br>
+### `git checkout develop`
+Una vez se hace clone de este repositorio, se ejecuta este comando para ir hacia la rama `develop`. Nota: El comando `git branch` será de ayuda para verificar en que rama se encuentra actualmente.
 
-Your app is ready to be deployed.
+### `git branch nombre_branch && git checkout nombre_branch` o `git checkout -b nombre_branch`
+Estos comandos son los usados para crear nuevas ramas a partir de la rama en la que se encuentre actualmente, una vez verifique que se encuentra en la nueva rama podrá comenzar con las características que se vayan a agregar
+
+### Ramas `develop` y `master`
+Estas ramas están bloquedas por defecto, una vez termine el trabajo sobre su rama deberá hacer el respectivo commit y push en su rama local, la que se creó en la instrucción anterior, una vez tenga los cambios listos se hará un pull request a la rama `develop`
