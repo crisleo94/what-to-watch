@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Simple React + Parcel set up.",
   "main": "index.js",
+  "author": {
+    "name": "crisleo94"
+  },
   "scripts": {
     "start": "parcel src/index.html --open",
     "build": "parcel build src/index.html",
