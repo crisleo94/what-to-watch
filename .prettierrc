@@ -1,0 +1,28 @@
+{
+  "bracketSpacing": true,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "useTabs": false,
+  "tabWidth": 2,
+  "semi": false,
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.scss",
+      "options": {
+        "singleQuote": true
+      }
+    },
+    {
+      "files": [".babelrc", ".eslintrc", ".postcssrc", ".prettierrc"],
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}
