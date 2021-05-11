@@ -54,14 +54,18 @@
     "axios": "0.21.1",
     "bootstrap": "^4.5.0",
     "core-js": "3.6.5",
+    "is-svg": "4.2.2",
     "lodash": "4.17.21",
     "moment": "2.27.0",
+    "node-forge": "0.10.0",
+    "node-notifier": "8.0.1",
     "postcss-modules": "2.0.0",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-router-dom": "5.2.0",
     "reactstrap": "^8.5.1",
-    "regenerator-runtime": "0.13.5"
+    "regenerator-runtime": "0.13.5",
+    "trim": "0.0.3"
   }
 }
